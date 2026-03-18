@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial;
+    background: black;
+    color: white;
+}
+
+/* MENU */
+#menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+button {
+    padding: 15px 30px;
+    background: cyan;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* HUD */
+#hud {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
